@@ -27,20 +27,20 @@ div.boton button {
 div.boton button:hover {cursor: pointer;
     transform: scale(1.3);
 }
-.filtros {
+
+div.filtros {
     display: flex;
     flex-direction: row;
     height: 4vh;
     justify-content: flex-start;
     align-items: center;
-}
-div.filtros {
     background: gray;
     padding: 10px 10px;
     border-radius: 8px;
     margin: 1vh 0vh;
-
+    flex-wrap: wrap;
 }
+
 div > span {
     background-color: lightgrey;
     border-radius: 25px;
@@ -48,21 +48,36 @@ div > span {
     margin-left: 5px;
 }
 div.filtros ul {
-    list-style-type: none;
-    
+    list-style-type: none;   
   }
-div.filtros ul  li {
+div.filtros ul li {
     display: inline;
-
   }
   
 div.filtros ul  li a {text-decoration: none;
 color: black;
 padding: 12px 10px;
-/*background: gray;*/
 }
-div.filtros ul  li a:hover {
+div.filtros ul li a:hover {
     padding: 10px 12px;
     background: lightgray;
     border-radius: 8px;
 }
+@media screen and (max-width: 414px) {
+    div.filtros {
+        display: flex;
+        flex-direction: column;
+        height: 6vh;
+        justify-content: center;
+        align-items: center;
+        background: gray;
+        padding: 10px 10px;
+        border-radius: 8px;
+        margin: 1vh 0vh;
+        flex-wrap: wrap;
+    }
+
+  footer {
+      position: initial;
+  }
+  }
