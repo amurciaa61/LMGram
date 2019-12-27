@@ -1,0 +1,121 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: initial;
+}
+
+.contenedor {
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+}
+
+.cabecera {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera ul {
+    list-style-type: none;
+    padding: 0px;
+    border-bottom: solid 1px lightgrey;
+}
+
+.cabecera ul li {
+    display: inline;
+}
+
+.cabecera ul li a {
+    text-decoration: none;
+    padding: 0px 70px;
+    color: gray;
+}
+
+.contenedor-buscar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: solid 1px lightgrey;
+}
+form {
+    margin-left: 5vw;
+}
+section.seguidores-content {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.seguidores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+div.seguidor-nombre {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+div.seguidores img {
+    border: solid 1px black;
+    margin-left: 1vw;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.sugerencias-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40vw;
+    margin: 4vh 0px 4vh 1vw;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+div.seguidores span {
+    width: 20vw;
+    margin-left: 2vw;
+}
+.boton-seguir-siguiendo {
+    background: #24acf2;
+    width: 10vw;
+    margin-left: 2vw;
+    padding: 3px 12px;
+    border: solid 1px #24acf2;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.boton-blanco {
+    background: white;
+    color:  black;
+    border: solid 1px gray;
+}
+.ver-sugerencias-span a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40vw;
+    margin: 4vh 0px 6vh 1vw;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #24acf2;
+    text-decoration: none;
+}
