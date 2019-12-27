@@ -31,7 +31,7 @@ div.boton button:hover {cursor: pointer;
 div.filtros {
     display: flex;
     flex-direction: row;
-    height: 4vh;
+    height: auto;
     justify-content: flex-start;
     align-items: center;
     background: gray;
@@ -63,11 +63,12 @@ div.filtros ul li a:hover {
     background: lightgray;
     border-radius: 8px;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
+    /*
     div.filtros {
         display: flex;
         flex-direction: column;
-        height: 6vh;
+        max-width: 100vw;
         justify-content: center;
         align-items: center;
         background: gray;
@@ -75,7 +76,7 @@ div.filtros ul li a:hover {
         border-radius: 8px;
         margin: 1vh 0vh;
         flex-wrap: wrap;
-    }
+    }*/
 
   footer {
       position: initial;
