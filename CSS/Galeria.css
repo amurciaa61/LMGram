@@ -16,10 +16,14 @@ section.foto-portada {
     align-items: center;
     height: auto;
 }
-
+/*
 section.foto-portada img {
     width: auto;
     height: 390px;
+}*/
+section.foto-portada img {
+    width: 100vw;
+    height: auto;
 }
 
 section.foto-portada a {
