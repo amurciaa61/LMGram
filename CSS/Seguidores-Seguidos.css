@@ -153,17 +153,24 @@ div.seguidores span {
 
     .boton-seguir-siguiendo {
         width: 24vw;
-        margin-right: 2vw;
+        margin-right: 4vw;
+        padding: 3px 8px;
+    }
+    .sugerencias-span{
+        width: 100vw;
+        margin-left: 3vw;
+        flex-shrink: 0;
     }
 
     .ver-sugerencias-span a {
         width: auto;
-        margin-left: 2vw;
+        margin-left: 3vw;
     }
 
     div.seguidor-nombre {
-        width: 50vw;
+        width: 48vw;
         align-items: flex-start;
+        margin-left: 2vw;
     }
 
     div.seguidores img {
@@ -179,7 +186,5 @@ div.seguidores span {
         margin-left: 2vw;
     }
 
-    .sugerencias-span {
-        margin-left: 2vw;
-    }
+
 }
