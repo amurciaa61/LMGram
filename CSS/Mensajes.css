@@ -37,7 +37,7 @@ div.seguidor-nombre span {
 
 .pie {
     display: flex;
-    height: 13vh;
+    height: 9vh;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +72,7 @@ div.pie-iz form {
 }
 
 input {
-    width: 40vw;
+    width: 20vw;
     border: none;
 }
 
