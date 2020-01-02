@@ -74,10 +74,11 @@ div.filtros ul li a:hover {
 }
 
 @media screen and (max-width: 415px) {
-
+/*
     footer {
         position: initial;
     }
+    */
 
     div.filtros ul li {
         display: flex;
