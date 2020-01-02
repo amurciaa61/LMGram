@@ -68,4 +68,11 @@ div.filtros ul li a:hover {
   footer {
       position: initial;
   }
+  div.filtros ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   }
