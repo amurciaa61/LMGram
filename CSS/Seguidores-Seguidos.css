@@ -42,6 +42,7 @@ body {
     justify-content: flex-start;
     border-bottom: solid 1px lightgrey;
 }
+
 div.contenedor-buscar span {
     margin-left: 4vw;
 }
@@ -152,11 +153,12 @@ div.seguidores span {
     }
 
     .boton-seguir-siguiendo {
-        width: 24vw;
+        width: 25vw;
         margin-right: 4vw;
-        padding: 3px 8px;
+        padding: 3px 7px;
     }
-    .sugerencias-span{
+
+    .sugerencias-span {
         width: 100vw;
         margin-left: 3vw;
         flex-shrink: 0;
