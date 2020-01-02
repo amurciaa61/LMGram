@@ -1,0 +1,108 @@
+.contenedor {
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin: auto;
+}
+
+.seguidores-content {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: solid 1px gray;
+}
+
+div.imagen-seguidor img {
+    border: solid 1px black;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#f100 {
+    font-size: 2em;
+    color: black;
+}
+
+div.seguidor-nombre span {
+    margin-left: 2vw;
+}
+
+.pie {
+    display: flex;
+    height: 13vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 40vw;
+    margin: auto;
+    border: solid 1px gray;
+    border-radius: 25px;
+    margin-bottom: 1vh;
+}
+
+.pie-iz {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.circle-icon {
+    margin-left: 2vw;
+    border: solid 1px black;
+    background: #92c0f0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+div.pie-iz form {
+    margin-left: 1vw;
+}
+
+input {
+    width: 40vw;
+    border: none;
+}
+
+.pie-de {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pie-de span {
+    margin-right: 2vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .pie {
+        max-width: 100vw;
+        height: 7vh;
+    }
+
+    .contenedor {
+        margin-left: 0vw;
+    }
+
+    .seguidores-content {
+        margin-top: 1vh;
+        width: 100vw;
+    }
+
+    .imagen-seguidor {
+        margin-left: 4vw;
+    }
+}

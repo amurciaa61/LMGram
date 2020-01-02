@@ -1,9 +1,3 @@
-body {
-    padding: 0px;
-    margin: 0px;
-    font-size: initial;
-}
-
 .contenedor {
     max-width: 40vw;
     display: flex;
@@ -34,6 +28,7 @@ body {
     text-decoration: none;
     padding: 0px 70px;
     color: gray;
+
 }
 
 .contenedor-buscar {
@@ -98,6 +93,20 @@ div.seguidores img {
 div.seguidores span {
     width: 20vw;
     margin-left: 2vw;
+}
+
+button.mensaje {
+    width: 20vw;
+    margin-left: 2vw;
+    padding-left: 0px;
+    border: none;
+    background: white;
+    text-align: start;
+}
+button.mensaje a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.1em;
 }
 
 .boton-seguir-siguiendo {
