@@ -101,7 +101,8 @@ button.mensaje {
     padding-left: 0px;
     border: none;
     background: white;
-    text-align: start;
+    text-align: left;
+   /* text-align: start;*/
 }
 button.mensaje a {
     text-decoration: none;
