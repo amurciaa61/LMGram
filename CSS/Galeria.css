@@ -21,11 +21,11 @@ section.foto-portada a {
     text-decoration: none;
     margin: 6px 0px;
     font-size: 1.5em;
-    color: #0087ce;
+    color: #6d98ba;
 }
 
 section.foto-portada a:hover {
-    color: blue;
+    color: #28425c;
     text-shadow: 4px -5px 3px black;
 }
 

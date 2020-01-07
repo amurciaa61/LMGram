@@ -110,11 +110,11 @@ button.mensaje a {
 }
 
 .boton-seguir-siguiendo {
-    background: #24acf2;
+    background: #6d98ba;
     width: 10vw;
     margin-left: 2vw;
     padding: 3px 12px;
-    border: solid 1px #24acf2;
+    border: solid 1px #6d98ba;
     border-radius: 8px;
     color: white;
     font-size: 1.1em;
@@ -136,7 +136,7 @@ button.mensaje a {
     margin: 4vh 0px 6vh 1vw;
     font-size: 1.1em;
     font-weight: bold;
-    color: #24acf2;
+    color: #6d98ba;
     text-decoration: none;
 }
 
