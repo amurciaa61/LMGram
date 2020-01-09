@@ -95,7 +95,7 @@ div.seguidores span {
     margin-left: 2vw;
 }
 
-button.mensaje {
+.mensaje {
     width: 20vw;
     margin-left: 2vw;
     padding-left: 0px;
@@ -104,10 +104,10 @@ button.mensaje {
     text-align: left;
    /* text-align: start;*/
 }
-button.mensaje a {
+a.mensaje {
     text-decoration: none;
     color:black;
-    font-size: 1.1em;
+
 }
 
 .boton-seguir-siguiendo {
