@@ -1,0 +1,29 @@
+footer {
+  height: 8vh;
+  background-color: #28425C;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+}
+
+.contenido-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  width: 20vh;
+  color: #9aadbf;
+}
+
+.contenido-footer a:link {
+  text-decoration: none;
+  color: #9aadbf;
+}
+
+.contenido-footer a:visited {
+  text-decoration: none;
+  color: #9aadbf;
+}
