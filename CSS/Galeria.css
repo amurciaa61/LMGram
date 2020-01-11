@@ -36,7 +36,7 @@ section.galeria {
     align-items: center;
     width: auto;
     flex-wrap: wrap;
-    margin: 5px 20vw;
+    margin: 5px 10vw;
 }
 
 section.galeria img {
@@ -47,4 +47,24 @@ section.galeria img {
 section.galeria img:hover {
     border: solid 1px black;
     transform: scale(1.1);
+}
+@media only screen and (max-width: 768px) {
+    section.galeria {
+        margin: 5px 1vw;
+    }
+
+    section.galeria img {
+        width: 150px;
+    }
+
+}
+@media only screen and (max-width: 414px) {
+    section.galeria {
+        margin: 0px;
+    }
+
+    section.galeria img {
+        width: 90px;
+    }
+
 }
