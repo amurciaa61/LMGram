@@ -5,6 +5,14 @@
 
 input {
     border-style: hidden;
-     width: 50vw;  
+    width: 18vw;
+    background-image: linear-gradient(to top right, #e6e8e6, #f4f6f4);
     padding-bottom: 1vw;
+}
+
+@media only screen and (max-width: 800px) {
+    input {
+        width: 43vw;
+        background-image: linear-gradient(to top right, #e6e8e6, #eff1ee);
+    }
 }

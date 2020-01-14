@@ -74,6 +74,7 @@ div.pie-iz form {
 input {
     width: 20vw;
     border: none;
+    background-image: linear-gradient(to top right,#cbd6dc,#d4dbdd);
 }
 
 .pie-de {
