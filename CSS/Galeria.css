@@ -1,3 +1,7 @@
+header {
+    width: 15vw;
+    margin: auto;
+}
 section.foto-portada {
     display: flex;
     flex-direction: column;
