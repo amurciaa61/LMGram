@@ -6,60 +6,83 @@
     max-width: 100vw;
     height: 92vh;
 }
+
 div#foto {
-   background-image:  url(../IMG/santorini.jpg);
-   background-repeat: no-repeat;
-   background-position: top center ;
-   background-size: 60vw 50vh;
-   width: 100%; 
-   height: 100%; 
+    background-image: url(../IMG/santorini.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 73vw 50vh;
+    width: 73vw;
+    height: 100%;
+    border-radius: 5px 5px;
 }
 
-#f1,#f2,#f3,#f4,#f5,#f6,#f7,#f8,#f9,#f10,#f11 {
+#f1,
+#f2,
+#f3,
+#f4,
+#f5,
+#f6,
+#f7,
+#f8,
+#f9,
+#f10,
+#f11 {
     display: none;
-    width: 60vw; 
+    width: 73vw;
     height: 50vh;
     margin: auto;
 }
+
 #f1:target {
     display: block;
     filter: saturate(8);
 }
+
 #f2:target {
     display: block;
 }
+
 #f3:target {
     display: block;
     filter: invert(100%);
 }
+
 #f4:target {
     display: block;
     filter: blur(3px);
 }
+
 #f5:target {
     display: block;
     filter: sepia(100%);
 }
+
 #f6:target {
     display: block;
     filter: grayscale(100%);
 }
+
 #f7:target {
     display: block;
     filter: contrast(200%);
 }
+
 #f8:target {
     display: block;
     filter: opacity(30%);
 }
+
 #f9:target {
     display: block;
     filter: brightness(200%);
 }
+
 #f10:target {
     display: block;
-    filter:hue-rotate(90deg);
+    filter: hue-rotate(90deg);
 }
+
 #f11:target {
     display: block;
     filter: drop-shadow(8px 8px 10px gray);
@@ -121,40 +144,96 @@ div.filtros ul li a:hover {
     border-radius: 8px;
 }
 
-#f1:target {
-    filter: invert(100%);
-}
-
-@media screen and (max-width: 800px) {
-
+@media only screen and (max-width: 768px) {
     .contenedor {
         height: auto;
     }
+
+    div#foto {
+        background-size: 100vw 33vh;
+        width: 100vw;
+        height: 33vh;
+    }
+
+    #f1,
+    #f2,
+    #f3,
+    #f4,
+    #f5,
+    #f6,
+    #f7,
+    #f8,
+    #f9,
+    #f10,
+    #f11 {
+        width: 100vw;
+        height: 33vh;
+    }
+
+    div.boton button {
+        margin: 27px 0px 10px 0px;
+    }
+
+    div.filtros {
+        padding: 8px 5px 1px 8px;
+        margin: 2vh 0px;
+    }
+
+    ul {
+        padding-left: 0px;
+    }
+
+    div.filtros ul li {
+        display: block;
+        padding: 6px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .contenedor {
+        height: auto;
+    }
+
     div.filtros ul li {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    #f1,#f2,#f3,#f4,#f5,#f6,#f7,#f8,#f9,#f10,#f11 {
-        width: 60vw; 
-        height: auto;
-        margin: auto;
-    }
+
     div#foto {
-        background-image:  url(../IMG/santorini.jpg);
-        background-repeat: no-repeat;
-        background-position: center center ;
-        background-size: 60vw 50vh;
-        width: 100%; 
-        height: 100%; 
- 
-     }
-     div#foto img {
-        width: 100%; 
-        height: auto; 
-    
-     }
+        background-size: 100vw 24vh;
+        width: 100vw;
+        height: 24vh;
+    }
 
+    #f1,
+    #f2,
+    #f3,
+    #f4,
+    #f5,
+    #f6,
+    #f7,
+    #f8,
+    #f9,
+    #f10,
+    #f11 {
+        width: 100vw;
+        height: 24vh;
+    }
 
+    div.filtros {
+        flex-direction: column;
+        padding: 8px 5px 1px 8px;
+        margin-top: 0px;
+    }
+
+    ul {
+        padding-left: 0px;
+    }
+
+    div.filtros ul li {
+        display: block;
+        padding: 3px;
+    }
 }
