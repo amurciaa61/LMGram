@@ -1,0 +1,237 @@
+@keyframes opacidad {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#Icono-Descubrir
+{
+    text-decoration: none;
+    color: black;
+}
+
+article
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buscar
+{
+  height: 30px;
+  width: 300px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.descubre
+{
+  height: 5vh;
+  width: 40vw;
+  background-color: inherit;
+  padding-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.personas
+{
+  height: 5vh;
+  width: 9vw;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.todo
+{
+  height: 5vh;
+  width: 4vw;
+  float: right;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-weight: bold;
+  color: #6D98BA;
+  font-size: 15px;
+}
+
+.separador
+{
+  height: 5vh;
+  width: 27vw;
+  background-color: inherit;
+}
+
+.lista
+{
+  height: 20vh;
+  width: 40vw;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.per01, .per02, .per03, .per04
+{
+  height: 19vh;
+  width: 9vw;
+  background-color: inherit;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.explora
+{
+  height: 5vh;
+  width: 40vw;
+  background-color: inherit;
+  padding-top: 3vh;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.seguir
+{
+  height: 3vh;
+  width: 6vw;
+  margin: 5px;
+  background-color: #6D98BA;
+  border: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  font-family: Verdana;
+}
+
+.imagen01, .imagen02, .imagen03, .imagen04
+{
+  height: 10vh;
+  width: 5vw;
+  background-color: inherit;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.imagen01
+{
+  background-image: url(../IMG/invierno.jpg);
+}
+
+.imagen02
+{
+  background-image: url(../IMG/maquinafoto2.jpg);
+}
+
+.imagen03
+{
+  background-image: url(../IMG/paisaje7.jpg);
+}
+
+.imagen04
+{
+  background-image: url(../IMG/primavera.jpg);
+}
+
+.nombre
+{
+  height: 2vh;
+  width: 5vw;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fotos
+{
+  height: 40vh;
+  width: 50vw;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto01, .foto02, .foto03, .foto04
+{
+  height: 30vh;
+  width: 20vw;
+  background-color: yellow;
+  margin: 10px;
+  opacity: 0.7;
+}
+
+.foto01
+{
+  background-image: url(../IMG/primavera.jpg);
+}
+
+.foto02
+{
+  background-image: url(../IMG/noruega4.jpg);
+}
+
+.foto03
+{
+  background-image: url(../IMG/paisaje1.jpg);
+}
+
+.foto04
+{
+  background-image: url(../IMG/paisaje2.jpg);
+}
+
+.mas
+{
+height: 5vh;
+width: 40vw;
+background-color: inherit;
+padding-top: 3vh;
+font-family: Verdana;
+font-weight: bold;
+font-size: 15px;
+color: #6D98BA;
+display: flex;
+flex-direction: row-reverse;
+}
+
+.ver
+{
+  height: 3vh;
+  width: 4vw;
+  background-color: inherit;
+}
+
+.foto01:hover, .foto02:hover, .foto03:hover, .foto04:hover
+{
+  animation: opacidad 1s;
+  cursor: pointer;
+}
+
+.ver:hover, .seguir:hover
+{
+  cursor: pointer;
+}

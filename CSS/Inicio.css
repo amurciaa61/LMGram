@@ -1,0 +1,154 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+article
+{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.columna
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto
+{
+    display: inline-block;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contenedor-publicaciones
+{
+    width: 50vw;
+    height: 80vh;
+    background-image: url(../IMG/paisaje.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(80%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contenedor-publicaciones:hover
+{
+    background-image: url(../IMG/paisaje.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contenedor-logo
+{
+    width: 50vw;
+    height: 20vh;
+    background-color: blue;
+    filter: grayscale(80%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    background-image: url("../IMG/gato.png");
+    background-size: cover;
+}
+
+.imagen-logo
+{
+    transform: scale(0.3);
+    
+}
+.contenedor-logo:hover
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    background-image: url("../IMG/gato.gif");
+}
+
+.contenedor-historias
+{
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../IMG/stories.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(80%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contenedor-historias:hover
+{
+    background-image: url(../IMG/stories.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contenedor-directo
+{
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../IMG/directo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contenedor-directo:hover
+{
+    background-image: url(../IMG/directo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(0%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+}

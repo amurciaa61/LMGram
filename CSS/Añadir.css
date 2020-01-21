@@ -1,0 +1,33 @@
+#Icono-Añadir
+{
+    text-decoration: none;
+    color: black;
+}
+
+article
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.columna-izq
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+}
+
+.columna-der
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+}

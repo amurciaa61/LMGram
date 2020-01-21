@@ -1,0 +1,63 @@
+.publicaciones
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.publicacion
+{
+    border: 2px;
+    border-style: solid;
+    height: 30vw;
+    width: 30vw;
+}
+
+#nombre-seguidor
+{
+    color:black;
+}
+
+.p-upper
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+button {
+    margin-left: 2vw;
+    padding-left: 0px;
+    border: none;
+    background: none;
+    text-align: left;
+    color: black;
+}
+
+button a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.1em;
+}
+
+.imagen-seguidor img {
+    border: solid 1px black;
+    margin-left: 1vw;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.seguidor-nombre
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}

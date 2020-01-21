@@ -1,0 +1,59 @@
+#Icono-Actividad
+{
+    text-decoration: none;
+    color: black;
+}
+body{
+}
+
+.icono img{
+  border: solid 1px black;
+  margin-left: 1vw;
+  vertical-align: middle;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+}
+.solicitudes{
+  height: 100px;
+  width: 100vw;
+}
+.aprobar{
+  float: left;
+  padding: 20px;
+}
+.contenido{
+  height: 900px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mensaje{
+  height: 100px;
+  width: 100vw;
+}
+.foto img {
+    border: solid 1px black;
+    margin-left: 1vw;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+}
+.frase {
+  float: left;
+  padding: 30px;
+}
+.boton{
+  background-color: inherit;
+  font-size: 1.1em;
+  cursor: pointer;
+  border: none;
+}
+.mensaje:hover, .solicitudes:hover{
+  transform: scale(1.05, 1.05);
+  transition: all 1s ease 0s;
+}
