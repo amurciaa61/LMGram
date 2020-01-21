@@ -68,11 +68,7 @@ section.galeria img:hover {
         width: 90px;
     }
     header {
-        width: 20vw;
+        width: 100vw;
         margin: auto;
     }
-    header {
-        width: 100vw;
-    }
-
 }

@@ -61,3 +61,143 @@ button a {
     justify-content: left;
     align-items: left;
 }
+/*Parte de Ana Gomis*/
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+}
+.publicacion1{
+  height: 650px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid grey;
+  border-radius: 2%;
+  font-family: verdana;
+}
+.img-perfil{
+  float: left;
+  padding-bottom: 15px;
+  margin-top:10px;
+}
+.nom-seguido{
+  margin-top: 20px;
+  float: left;
+}
+.ubicacion{
+  margin-top: 20px;
+  float: left;
+}
+.foto-publicada img{
+  width: 500px;
+}
+.agregar{
+  border-top: 2px solid grey;
+}
+#com{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+}
+#publicar{
+  float: right;
+  margin-top: 25px;
+  margin-right: 10px;
+  border: none;
+  color: #557691;
+  background-color: inherit;
+  cursor: pointer;
+}
+.hora{
+  font-size: 10;
+  color: grey;
+  margin-left: 30px;
+}
+.likes{
+  font-size: 10;
+  color: black;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+.descripicion{
+  font-size: 10;
+  color: black;
+}
+.n-comentarios{
+  font-size: 10;
+  color: grey;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+#corazon{
+  float: right;
+  cursor: pointer;
+}
+.comentario{
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-size: 10;
+  color: black;
+}
+#corazon1{
+  float: left;
+  cursor: pointer;
+}
+.publicacion2{
+  height: 700px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid grey;
+  border-radius: 2%;
+  font-family: verdana;
+  margin:20px;
+}
+.publicacion3{
+  height: 650px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid grey;
+  border-radius: 2%;
+  font-family: verdana;
+  margin:20px;
+}
+.publicacion4{
+  height: 650px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid grey;
+  border-radius: 2%;
+  font-family: verdana;
+  margin:20px;
+}
+.publicacion5{
+  height: 700px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid grey;
+  border-radius: 2%;
+  font-family: verdana;
+  margin:20px;
+}
+.img-perfil:hover{
+  transform: scale(1.1);
+  transition: 2s;
+}
+.foto-publicada:hover{
+  transform: scale(1.05) ;
+  transition: 2s;
+}
